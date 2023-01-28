@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FBFBFB;
+    margin-bottom: 100px;
+}
+
+/*Fonts-family*/
+nav>p,
+h2 {
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+h1,
+h3 {
+    font-family: 'Concert One', cursive;
+}
+
+p,
+.contact-container address {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Header*/
+h1 {
+    padding: 10px 0 30px 0;
+    font-size: 60px;
+    color: #CA1C25;
+    margin-left: 5%;
+    -webkit-text-stroke: 2px #FBFBFB;
+    text-shadow: 1px 1px 15px white;
+}
+
+nav {
+    position: absolute;
+    right: 100px;
+    top: 65px
+}
+
+nav>p {
+    font-size: 24px;
+    margin: 50% 10px;
+    padding: 5px 30px;
+    color: gray;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    position: relative;
+    top: 250px;
+    right: 1075px;
+}
+
+nav>p:hover {
+    transform: scale(1.2);
+}
+
+h2 {
+    box-sizing: content-box;
+    font-size: 35px;
+    background-color: #4C8B86;
+    color: #FBFBFB;
+}
+
+h3 {
+    margin: 30px 0 10px 0;
+    font-size: 26px;
+}
+
+/*Text*/
+header h1,
+nav,
+article h3,
+article p,
+.contact-container p,
+.contact-container address {
+    text-align: start;
+}
+
+header>h2,
+nav>p {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.active {
+    color: gray;
+}
+
+.active:hover {
+    transform: none;
+}
+
+nav a {
+    color: #4C8B86;
+}
+
+article p,
+section p {
+    text-indent: 30px;
+}
+
+/*Img*/
+.banner {
+    display: none;
+}
+
+.mdhl-logo {
+    width: 140px;
+    height: auto;
+    position: absolute;
+    bottom: 245px;
+    right: 200px;
+    background-color: #FBFBFB;
+    border:#4C8B86 2px solid;
+    border-radius: 10%;
+}
+
+.header-container {
+    background-image: url(../img/design1_image1.jpg);
+    height: 275px;
+    width: 100%;
+    background-position: 25% 25%;
+}
+
+/*Containers*/
+.content-container {
+    margin: 5% 12% 5% 20%;
+}
+
+.contact-container {
+    margin: 4% 27.5% 20% 20%;
+}
+
+.contact-container p{
+    display: inline-block;
+}
+
+.contact-container address {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 20px 0;
+    text-decoration: underline;
+}
