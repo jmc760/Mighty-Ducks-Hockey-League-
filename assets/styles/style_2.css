@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FBFBFB;
+    margin-bottom: 100px;
+}
+
+/*Fonts-family*/
+nav>p,
+h2 {
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+h1,
+h3 {
+    font-family: 'Concert One', cursive;
+}
+
+p,
+.contact-container address {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Header*/
+h1 {
+    padding: 10px 0 30px 0;
+    font-size: 50px;
+    color: #CA1C25;
+}
+
+nav {
+    position: absolute;
+    right: 100px;
+    top: 65px
+}
+
+nav>p {
+    display: inline-block;
+    font-size: 22px;
+    margin: 0 10px;
+    padding: 5px 30px;
+    color: gray;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    background-color: #FBFBFB;
+    border: #4C8B86 1px solid;
+}
+
+nav>p:hover {
+    transform: scale(1.2);
+}
+
+h2 {
+    box-sizing: content-box;
+    font-size: 35px;
+    margin-top: -5px;
+    color: #4C8B86;
+    border: #4C8B86 2px solid;
+}
+
+h3 {
+    margin: 30px 0 10px 0;
+    font-size: 26px;
+}
+
+/*Text*/
+header h1,
+nav,
+nav>p,
+article h3,
+article p,
+.contact-container p,
+.contact-container address {
+    text-align: start;
+}
+
+header>h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.active {
+    color: #FBFBFB;
+    background-color: #4C8B86;
+}
+
+.active:hover {
+    transform: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+article p {
+    margin-left: 5%;
+}
+
+/*Img*/
+header img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.mdhl-logo {
+    width: 160px;
+    height: auto;
+    margin: 5% 0 0 0;
+    position: absolute;
+    bottom: -40px;
+    left: 120px;
+}
+
+/*Containers*/
+.header-container {
+    margin: 0 10%;
+}
+
+.content-container {
+    margin: 5% 27.5%;
+}
+
+.contact-container {
+    margin: 5% 27.5% 20% 27.5%;
+}
+
+.contact-container p {
+    display: inline-block;
+}
+
+.contact-container address {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 20px 0;
+}
