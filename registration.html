@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="shortcut icon" href="assets/img/short-icon-mdhl.png">
+    <link type="text/css" rel="stylesheet" href="assets/styles/style_3.css">
+</head>
+
+<body>
+    <header>
+        <div class="hl-container">
+            <img src="./assets/img/short-icon-mdhl.png" alt="MDHL icon">
+            <h1>Mighty Ducks Hockey League</h1>
+        </div>
+        <nav>
+            <p><a href="index.html">Home</a></p>
+            <p><a href="about.html">About</a></p>
+            <p><a href="contact.html">Contact</a></p>
+            <p><a href="rules.html">Rules &amp; Policies</a></p>
+            <p><a href="game_info.html">Game Information</a></p>
+            <p class="active">Registration</p>
+        </nav>
+        <figure>
+            <img class="banner" src="assets/img/design1_image1.jpg" alt="Young Hockey Players">
+        </figure>
+    </header>
+    <main>
+        <div class="img-slider">
+            <figure>
+                <img src="assets/img/hockey_1.jpg" alt="Young Hockey Players">
+            </figure>
+            <figure>
+                <img src="assets/img/hockey_2.jpg" alt="Young Hockey Players">
+            </figure>
+            <figure>
+                <img src="assets/img/hockey_3.jpg" alt="Young Hockey Players">
+            </figure>
+            <figure>
+                <img src="assets/img/design1_image1.jpg" alt="Young Hockey Players">
+            </figure>
+        </div>
+        <h2>Registration Form</h2>
+        <form action="show_data.html" method="get">
+            <fieldset class="column-fieldset">
+                <fieldset class="grid-2col">
+                    <!-- Player's First Name -->
+                    <label for="first_name">Player's First Name:
+                        <input type="text" name="first_name" id="first_name">
+                    </label>
+                    <!-- Last Name -->
+                    <label for="last_name">Last Name:
+                        <input type="text" name="last_name" id="last_name">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <!-- Street Address -->
+                    <label for="street_address">Street Address:
+                        <input type="text" name="street_address" id="street_address">
+                    </label>
+                </fieldset>
+                <fieldset class="grid-2col">
+                    <!-- City -->
+                    <label for="city">City:
+                        <input type="text" name="city" id="city">
+                    </label>
+                    <!-- Zip Code -->
+                    <label for="zip_code">Zip Code:
+                        <input type="text" name="zip_code" id="zip_code">
+                    </label>
+                </fieldset>
+                <fieldset class="grid-2col">
+                    <!-- Birth Date -->
+                    <label for="birth_date">Birth Date (mm/dd/yyyy):
+                        <input type="text" name="birth_date" id="birth_date">
+                    </label>
+                    <fieldset>
+                        <label>Gender:</label>
+                        <label for="female">Female
+                            <input type="radio" name="gender" id="female" value="female">
+                        </label>
+                        <label for="male">Male
+                            <input type="radio" name="gender" id="male" value="male">
+                        </label>
+                    </fieldset>
+                </fieldset>
+                <fieldset>
+                    <!-- Grade -->
+                    <label>Grade:</label>
+                    <input type="radio" name="grade" id="pre_school" value="pre_school">
+                    <label for="pre_school">Pre-School</label>
+                    <input type="radio" name="grade" id="first" value="first">
+                    <label for="first"><sup>1st</sup></label>
+                    <input type="radio" name="grade" id="second" value="second">
+                    <label for="second"><sup>2nd</sup></label>
+                    <input type="radio" name="grade" id="third" value="third">
+                    <label for="third"><sup>3rd</sup></label>
+                    <input type="radio" name="grade" id="fourth" value="fourth">
+                    <label for="fourth"><sup>4th</sup></label>
+                    <input type="radio" name="grade" id="fifth" value="fifth">
+                    <label for="fifth"><sup>5th</sup></label>
+                </fieldset>
+            </fieldset>
+            <!-- Closest School -->
+            <fieldset class="question-form">
+                <legend class="hl-form">Which elementary school do you live near?</legend>
+                <label class="hl-form" for="school">Closest school:</label>
+                <select name="school" id="school" multiple>
+                    <option value="aj_katzenmaier">AJ Katzenmaier</option>
+                    <option value="greenbay">Greenbay</option>
+                    <option value="howard_a_yeager">Howard A Yeager</option>
+                    <option value="marjorie_p_hart">Marjorie P Hart</option>
+                    <option value="north_elementary">North Elementary</option>
+                    <option value="south_elementary">South Elementary</option>
+                </select>
+            </fieldset>
+            <!-- Position -->
+            <fieldset class="question-form">
+                <legend class="hl-form">What position(s) do you normally play? (check all that apply)</legend>
+                <fieldset class="grid-2col">
+                    <label for="forward">
+                        <input type="checkbox" name="position" id="forward" value="forward">
+                        Forward</label>
+                    <label for="midfield">
+                        <input type="checkbox" name="position" id="midfield" value="midfield">
+                        Midfield</label>
+                    <label for="defense">
+                        <input type="checkbox" name="position" id="defense" value="defense">
+                        Defense</label>
+                    <label for="goalkeeper">
+                        <input type="checkbox" name="position" id="goalkeeper" value="goalkeeper">
+                        Goalkeeper</label>
+                </fieldset>
+            </fieldset>
+            <!-- Uniform -->
+            <fieldset class="question-form">
+                <legend class="hl-form">Uniform Size:</legend>
+                <fieldset class="grid-2col">
+                    <label for="youth_small">
+                        <input type="radio" name="uniform" id="youth_small" value="youth_small">
+                        Youth Small</label>
+                    <label for="medium">
+                        <input type="radio" name="uniform" id="medium" value="medium">
+                        Medium</label>
+                    <label for="youth_medium">
+                        <input type="radio" name="uniform" id="youth_medium" value="youth_medium">
+                        Youth Medium</label>
+                    <label for="large">
+                        <input type="radio" name="uniform" id="large" value="large">
+                        Large</label>
+                    <label for="youth_large">
+                        <input type="radio" name="uniform" id="youth_large" value="youth_large">
+                        Youth Large</label>
+                    <label for="extra_large">
+                        <input type="radio" name="uniform" id="extra_large" value="extra_large">
+                        Extra-Large</label>
+                    <label for="small">
+                        <input type="radio" name="uniform" id="small" value="small">
+                        Small</label>
+                </fieldset>
+            </fieldset>
+            <!-- Permission -->
+            <fieldset class="question-form">
+                <legend class="hl-form">Permission to Play</legend>
+                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide
+                    by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of
+                    physical injury associated with hockey and in consideration for the "League" accepting the
+                    registrant
+                    for its hockey programs and activies, I hereby release, discharge, and/or otherwise indemnify MDHL,
+                    their employees and associated personnel and volunteers, including the facilities used for practices
+                    and games, against any claim by or on behalf of the registrant as a result of the registrant's
+                    participation in the programand/orbeing transported to or from MDHL sponsored activities, which
+                    transportation (...)
+                </p>
+                <p>By entering your name below, I hereby agree and authorize the above. In addition, I also
+                    acknowledge that I have read the cancellation policy and agree to its terms.
+                </p>
+                <fieldset>
+                    <label for="parent_signature">Parent/Guardian Signature:
+                        <input type="text" name="parent_signature" id="parent_signature">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="date_signature">Date:
+                        <input type="text" name="date_signature" id="date_signature">
+                    </label>
+                </fieldset>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <figure>
+            <img class="mdhl-logo" src="assets/img/logo-mighty-ducks.png" alt="Mighty Ducks Logo">
+        </figure>
+    </footer>
+</body>
+
+</html>

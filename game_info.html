@@ -22,17 +22,32 @@
             <p><a href="contact.html">Contact</a></p>
             <p><a href="rules.html">Rules &amp; Policies</a></p>
             <p class="active">Game Information</p>
+            <p><a href="registration.html">Registration</a></p>
         </nav>
         <figure>
             <img class="banner" src="assets/img/design1_image1.jpg" alt="Young Hockey Players">
         </figure>
     </header>
     <main>
+        <div class="img-slider">
+            <figure>
+                <img src="assets/img/hockey_1.jpg" alt="Young Hockey Players">
+            </figure>
+            <figure>
+                <img src="assets/img/hockey_2.jpg" alt="Young Hockey Players">
+            </figure>
+            <figure>
+                <img src="assets/img/hockey_3.jpg" alt="Young Hockey Players">
+            </figure>
+            <figure>
+                <img src="assets/img/design1_image1.jpg" alt="Young Hockey Players">
+            </figure>
+        </div>
         <h2>Mighty Ducks Hockey League</h2>
         <table>
             <caption>
                 <p>Fall Schedule</p>
-                <p class="underlined">* All games take place on Saturday.</p>
+                <small>* All games take place on Saturday.</small>
             </caption>
             <thead>
                 <tr>
@@ -53,7 +68,7 @@
             <tbody>
                 <tr>
                     <td rowspan="2">
-                        <p><time datetime="09-01">9/01</time></p>
+                        <p class="td-date"><time datetime="09-01">9/01</time></p>
                     </td>
                     <td>
                         <p>U1 and U4</p>
@@ -78,7 +93,7 @@
                 </tr>
                 <tr>
                     <td rowspan="2">
-                        <p><time datetime="09-08">9/08</time></p>
+                        <p class="td-date"><time datetime="09-08">9/08</time></p>
                     </td>
                     <td>
                         <p>U5 and U6</p>
@@ -103,7 +118,7 @@
                 </tr>
                 <tr>
                     <td rowspan="2">
-                        <p><time datetime="09-15">9/15</time></p>
+                        <p class="td-date"><time datetime="09-15">9/15</time></p>
                     </td>
                     <td>
                         <p>U2 and U4</p>
@@ -128,7 +143,7 @@
                 </tr>
                 <tr>
                     <td rowspan="2">
-                        <p><time datetime="09-22">9/22</time></p>
+                        <p class="td-date"><time datetime="09-22">9/22</time></p>
                     </td>
                     <td>
                         <p>U1 and U3</p>
@@ -153,7 +168,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <p><time datetime="09-29">9/29</time></p>
+                        <p class="td-date"><time datetime="09-29">9/29</time></p>
                     </td>
                     <td>
                         <p>U4 and U5</p>
@@ -167,23 +182,91 @@
                 </tr>
             </tbody>
         </table>
+        <section class="maps-container">
+            <div>
+                <img src="assets/img/maps_and_flags.png" alt="Map Pin">
+                <h3>School Locations</h3>
+            </div>
+            <nav>
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.780458165124!2d-87.86499328502543!3d42.32588114525281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1sen!2sar!4v1675815259121!5m2!1sen!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p>AJ Katzenmaier</p>
+                </div>
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.010418154201!2d-87.87107038502563!3d42.32097654556232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x740a7a7d548adce1!2sGreen%20Bay%20School%20(Pre-K)!5e0!3m2!1sen!2sar!4v1675815328034!5m2!1sen!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p>Greenbay</p>
+                </div>
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.2698766737826!2d-87.8560697850258!3d42.31544224591158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac26b07c5%3A0x8b51fa5d6efe771a!2sHoward%20A.%20Yeager%20School%20(PREK-K)!5e0!3m2!1sen!2sar!4v1675815377175!5m2!1sen!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p>Howard A Yeager</p>
+                </div>
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2896536435946!2d-87.64816138503905!3d41.92962687016798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2637f9d7%3A0xdbff5d5dfcfcfa35!2sMarjorie%20P%20Hart%20Elementary!5e0!3m2!1sen!2sar!4v1675815449301!5m2!1sen!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p>Marjorie P Hart</p>
+                </div>
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.33536301398!2d-87.6483115850398!3d41.90714887157571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd33af14860a5%3A0x5736e62f19086c62!2sNorth%20Elementary!5e0!3m2!1sen!2sar!4v1675815520077!5m2!1sen!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p>North</p>
+                </div>
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.193522975487!2d-87.85678168502577!3d42.31707094580878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac2135a21%3A0x8ce88e90b96bbec1!2sSouth%20Elementary%20School%20(K-5)!5e0!3m2!1sen!2sar!4v1675815572934!5m2!1sen!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p>South</p>
+                </div>
+            </nav>
+        </section>
         <section class="info">
-            <h3>Facility Type:</h3>
-            <p>Outdoor</p>
-            <h3>Additional Information:</h3>
-            <p>If deemed necessary by MDHL games may be shortened or cancelled due to extreme weather conditions.</p>
-            <h3>Please direct all questions to:</h3>
-            <p>Michael Randall, League Coordinator</p>
-            <h3>Phone:</h3>
-            <p>(630) 690-8132</p>
-            <h3>Email:</h3>
-            <address><a href="mailto:mdhl@chihockey.org">michael.randall@chihockey.org</a></address>
+            <div>
+                <h3>Facility Type:</h3>
+                <p>Outdoor</p>
+            </div>
+            <div>
+                <h3>Additional Information:</h3>
+                <p>If deemed necessary by MDHL games may be shortened or cancelled due to extreme weather conditions.</p>
+            </div>
+        </section>
+        <section class="info">
+            <div>
+                <h3>Please direct all questions to:</h3>
+                <p>Michael Randall, League Coordinator</p>
+            </div>
+            <div class="contact">
+                <div>
+                    <h3>Phone:</h3>
+                    <p>(630) 690-8132</p>
+                </div>
+                <div>
+                    <h3>Email:</h3>
+                    <address><a href="mailto:mdhl@chihockey.org">michael.randall@chihockey.org</a></address>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
         <figure>
             <img class="mdhl-logo" src="assets/img/logo-mighty-ducks.png" alt="Mighty Ducks Logo">
         </figure>
+        <small>
+            <a href="https://www.flaticon.com/free-icons/pin" title="pin icons">Pin icons created by Freepik -
+                Flaticon</a>
+        </small>
     </footer>
 </body>
 
